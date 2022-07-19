@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      NEXT_PUBLIC_BASE_PATH: /twilio-listenup
 
     strategy:
       matrix:
